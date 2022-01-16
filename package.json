@@ -1,0 +1,23 @@
+{
+  "name": "black-thyme-personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywang1110/Personal-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywang1110/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/ywang1110/Personal-Website#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "particle.js": "^1.0.7"
+  }
+}

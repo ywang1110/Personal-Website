@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website - Yanan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/501fa67be8.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--<img class="feature" src="asset/images/feature.png">-->
+    <!--Home Section-->
+    <iframe src="audio/source.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+    <audio class="music" autoplay controls loop>
+        <source src="music/toTheMoon.mp3" type="audio/mp3">
+    </audio>
+    <section id="home">
+        <div class="main">
+            <h1>Hello,<span></span></h1>
+            <h1>I Am Yanan<span></span></h1>
+            <!--            <h1>Yanan<span></span></h1>-->
+            <button class="btn">
+                Download Resume
+            </button>
+            <div class="social">
+                <a href="https://www.facebook.com/yanan.wang.3745/"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/ywang1110"><i class="fa fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCcDlH9q7YxyktijKEujl_Rg"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/yanan-wang1110/"><i class="fa fa-linkedin-square"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about">
+        <div class="about-content">
+            <h1 class="headings">About <span class="me">Me.</span></h1>
+            <div id="pic">
+                <img src="avator.png">
+                <div id="intro">
+                    <h2>My name is Yanan Wang, looking for a <span>Full Stack Software Engineer</span> position.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id="services">
+        <h1 class="headings">Skills</h1>
+        <div class="container-skills ">
+
+            <div class="container-box">
+                <div class="container-logo">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="container-title">
+                    <h3>Front End Dev</h3>
+                    <div class="container-data">
+                         <a href="#">HTML<i class="fab fa-html5"></i></a>
+                         <a href="#">CSS<i class="fab fa-css3-alt"></i></a>
+                         <a href="#">Bootstrap<i class="fab fa-bootstrap"></i></a>
+                         <a href="#">JavaScript<i class="fab fa-js"></i></a>
+                         <a href="#">jQuery<i class="fab fa-js"></i></a>
+                         <a href="#">React<i class="fab fa-react"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-box">
+                <div class="container-logo">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <div class="container-title">
+                    <h3>Back End Dev</h3>
+                    <div class="container-data">
+                        <a href="#">Node.js<i class="fab fa-node"></i></a>
+                        <a href="#">Express.js<i class="fas fa-pallet"></i></a>
+                        <a href="#">Spring Boot<i class="fas fa-power-off"></i></a>
+                        <a href="#">Spring Security<i class="fas fa-shield-alt"></i></a>
+                        <a href="#">Spring Data JPA<i class="fas fa-crutch"></i></a>
+                        <a href="#">RESTful APIs<i class="fas fa-cog"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-box">
+                <div class="container-logo">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="container-title">
+                    <h3>Database & Other</h3>
+                    <div class="container-data">
+                        <a href="#">MySQL<i class="fas fa-database"></i></a>
+                        <a href="#">SQLite<i class="fas fa-table"></i></a>
+                        <a href="#">MongoDB<i class="fab fa-mdb"></i></a>
+                        <a href="#">Docker<i class="fab fa-docker"></i></a>
+                        <a href="#">EJS<i class="fas fa-archway"></i></a>
+                        <a href="#">Git<i class="fab fa-git"></i></a>
+                        <a href="#">Machine Learning<i class="fas fa-brain"></i></a>
+                        <a href="#">NLP<i class="fas fa-language"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Project Section-->
+    <section id="projects">
+        <div class="container">
+          <h1 class="headings">Projects</h1>
+            <div class="all-items">
+                <div class="item">
+                    <div class="left">
+                        <div class="img">
+                            <img class="centered-and-cropped" src="asset/images/project-11.jpeg">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="project-title">Grocery Express Service</h2>
+                        <span class="badge badge-primary">Java</span>
+                        <span class="badge badge-secondary">Spring Boot</span>
+                        <span class="badge badge-success">Spring Security </span>
+                        <span class="badge badge-danger">RESTful</span>
+                        <span class="badge badge-warning">JPA</span>
+                        <span class="badge badge-info">MySQL</span>
+                        <span class="badge badge-dark">Postman </span>
+                        <span class="badge badge-primary">Git</span>
+                        <span class="badge badge-secondary">IntelliJ </span>
+                        <p class="project-desc">
+                            <ul>
+                                <li>Implemented core functionalities and RESTful APIs in Spring Boot framework<br></li>
+                                <li>Persisted data to MySQL using Spring Data at Data Access Layer<br></li>
+                                <li>Achieved authentication and role-based access control to Grocery Express Service through Spring Security and JWT<br></li>
+                                <li>Tested all functionalities/RESTful APIs with Postman</li>
+                            </ul>
+                        </p>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="all-items">
+                <div class="item">
+                    <div class="left">
+                        <div class="img">
+                            <img class="centered-and-cropped" src="asset/images/project-2.jpeg">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="project-title">Job offers Comparison Android App</h2>
+                        <span class="badge badge-primary">Java</span>
+                        <span class="badge badge-secondary">SQLite</span>
+                        <span class="badge badge-success">JUnit</span>
+                        <span class="badge badge-danger">Android Studio</span>
+                        <span class="badge badge-warning">Git</span>
+                        <p class="project-desc">
+                        <ul>
+                            <li>Implemented UIs and functionalities (e.g., enter/edit job offers, adjust comparison settings, rank job offers, compare offers, compare selected job offers)<br></li>
+                            <li>Persisted data with SQLite and tested functionalities<br></li>
+                        </ul>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-items">
+                <div class="item">
+                    <div class="left">
+                        <div class="img">
+                            <img class="centered-and-cropped" src="asset/images/project-3.jpeg">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="project-title">Personal Blog Web Application</h2>
+                        <span class="badge badge-primary">HTML</span>
+                        <span class="badge badge-secondary">CSS</span>
+                        <span class="badge badge-success">Bootstrap</span>
+                        <span class="badge badge-danger">JavaScript</span>
+                        <span class="badge badge-warning">Node.js</span>
+                        <span class="badge badge-info">Express.js</span>
+                        <span class="badge badge-dark">EJS</span>
+                        <span class="badge badge-primary">MongoDB</span>
+                        <span class="badge badge-secondary">WebStorm</span>
+                        <span class="badge badge-success">Git</span>
+                        <p class="project-desc">
+                        <ul>
+                            <li>Implement frontend and backend server using HTML, CSS, Bootstrap, ejs, JavaScript, Node.js and express.js <br></li>
+                            <li>Persisted data to MongoDB Atlas using mongoose and deployed application on Heroku<br></li>
+                        </ul>
+                        </p>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="all-items">
+                <div class="item">
+                    <div class="left">
+                        <div class="img">
+                            <img class="centered-and-cropped" src="asset/images/project-4.jpeg">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2 class="project-title">Bulit Theortical & ML Models</h2>
+                        <span class="badge badge-primary">Python</span>
+                        <span class="badge badge-secondary">SciPy</span>
+                        <span class="badge badge-success">Pandas</span>
+                        <span class="badge badge-danger">NumPy</span>
+                        <span class="badge badge-warning">ML algorithms</span>
+                        <span class="badge badge-info">Jupiter Notebook</span>
+                        <span class="badge badge-dark">Google Colab</span>
+                        <span class="badge badge-primary">Git</span>
+                        <p class="project-desc">
+                        <ul>
+                            <li>Developed a pioneering analytical model with excellent prediction capabilities (MAPE_validiating=5.72%) <br></li>
+                            <li>Verified model generalization by cross-validation and random-split resampling techniques<br></li>
+                            <li>Provided a practical guidance for researchers based on simulation results<br></li>
+                        </ul>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+<!--Contact Section-->
+    <section id="contact">
+        <div class="contact-in">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190255.33982325194!2d-87.87239063027042!3d41.83390324919283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1642211990441!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form">
+            <h1>Contact <span>Me</span></h1>
+            <form action="https://formsubmit.co/d9fa22acec004dd0c76c56599a7d6f78" method="POST">
+                <input type="text" name="name" placeholder="Enter your full name" class="contact-form-txt" required>
+                <input type="email" name="email" placeholder="Enter your email" class="contact-form-txt" required>
+                <textarea name="message" placeholder="Message" class="contact-form-textarea" required></textarea>
+                <input type="submit" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+        </div>
+    </section>
+
+<!--footer-->
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/yanan.wang.3745/"><i class="fa fa-facebook"></i></a> </li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+                <li><a href="https://github.com/ywang1110"><i class="fa fa-github"></i></a> </li>
+                <li><a href="https://www.youtube.com/channel/UCcDlH9q7YxyktijKEujl_Rg"><i class="fa fa-youtube"></i></a> </li>
+                <li><a href="https://www.linkedin.com/in/yanan-wang1110/"><i class="fa fa-linkedin-square"></i></a> </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>@2021 All rights reserved.</p>
+        </div>
+    </footer>
+
+<!--particle.js files-->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.json loaded...');
+    });
+</script>
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
+</body>
+</html>
