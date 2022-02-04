@@ -329,13 +329,16 @@ html{
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1300px;
+}
+#projects .project-title{
+    padding-top: 20px;
 }
 #projects .item{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
