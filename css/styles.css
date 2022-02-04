@@ -338,7 +338,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
@@ -350,10 +350,10 @@ html{
 }
 #projects .item .right{
     flex:1;
-    margin-left: -450px;
+    margin-left: -300px;
     height: 350px;
     background-color: #F9FCFB;
-    padding: 2rem 3rem 0.5rem 3rem;
+    padding: 2rem 3rem;
     z-index: 2;
     box-shadow: 0 0 20px #ffffff;
     border-radius: 12px;
