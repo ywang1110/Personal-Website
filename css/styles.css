@@ -209,7 +209,7 @@ html{
     height: 100vh;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 150px 0 30px;
+    padding: 100px 0 30px;
     margin-bottom: 50px;
 }
 
@@ -236,11 +236,22 @@ html{
 }
 #intro span{
     color: orange;
+    font-weight: normal;
 }
 #intro h2{
     text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-family: 'Caveat', cursive;
+    color: cornflowerblue;
+}
+#intro h3{
+    text-align: center;
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    /*font-weight: lighter;*/
+    /*font-family: 'Caveat';*/
+    padding-top: 0.5rem;
 }
 /* --- Skills Section ---*/
 #services{
@@ -332,13 +343,13 @@ html{
     max-width: 1300px;
 }
 #projects .project-title{
-    padding-top: 20px;
+    padding-top: 0px;
 }
 #projects .item{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
@@ -353,7 +364,7 @@ html{
     margin-left: -300px;
     height: 350px;
     background-color: #F9FCFB;
-    padding: 2rem 3rem;
+    padding: 1.5rem 2.5rem;
     z-index: 2;
     box-shadow: 0 0 20px #ffffff;
     border-radius: 12px;
@@ -444,6 +455,7 @@ html{
 }
 .contact-form span{
     color: darkorange;
+    font-weight: bolder;
 }
 .contact-form-txt{
     width: 80%;
